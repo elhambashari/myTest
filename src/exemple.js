@@ -21,3 +21,7 @@ export function stor(str) {
 export function sub(x,y){
 	return (x-y)
 }
+
+export function div(n,m){
+	return (n/m)
+}
