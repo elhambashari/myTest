@@ -13,3 +13,7 @@ export function login(namn, lösenord) {
 export function combin(a,b){
 	return a+b
 }
+
+export function stor(str) {
+  return str.toUpperCase();
+}

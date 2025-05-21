@@ -18,5 +18,5 @@ test('combin a+b',()=>{
 });
 
 test('sting kan be stor bokstav',()=>{
-	expect(toUppercase('elham')).toBe('ELHAM');
+	expect(stor('elham')).toBe('ELHAM');
 });
