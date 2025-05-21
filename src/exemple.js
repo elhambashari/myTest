@@ -10,3 +10,6 @@ export function multi(c, d) {
 export function login(namn, lösenord) {
   return { namn, lösenord };
 }
+//export function combin(a,b){
+	//return a+b
+//}
