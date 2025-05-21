@@ -14,5 +14,5 @@ test('login works', () => {
 });
 
 test('combin a+b',()=>{
-	expect(combin(elham,bashari)).toBe(elhambashari);
+	expect(combin('elham','bashari')).toBe('elhambashari');
 });
