@@ -23,5 +23,6 @@ test('sting kan be stor bokstav',()=>{
 
 test('skilnad mellan x och y',()=>
 {
-	expect((sub(10,6)).toBe(4));
+	expect(sub(10, 6)).toBe(4);
+
 });

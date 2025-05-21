@@ -17,3 +17,7 @@ export function combin(a,b){
 export function stor(str) {
   return str.toUpperCase();
 }
+
+export function sub(x,y){
+	return (x-y)
+}
