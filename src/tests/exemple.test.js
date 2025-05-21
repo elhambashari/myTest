@@ -1,5 +1,5 @@
 
-import { sum, multi, login,combin ,stor, sub} from '../exemple.js';
+import { sum, multi, login,combin ,stor, sub, div} from '../exemple.js';
 
 test('adds 1 + 2 to equal 3', () => {
   expect(sum(1, 2)).toBe(3);
@@ -26,3 +26,7 @@ test('skilnad mellan x och y',()=>
 	expect(sub(10, 6)).toBe(4);
 
 });
+
+test('dividerar mellan två tal',()=>{
+	expect(div(80,8)).toBe(10);
+})
