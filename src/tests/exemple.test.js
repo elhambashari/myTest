@@ -32,6 +32,6 @@ test('dividerar mellan två tal',()=>{
 })
 
 
-test('det stortsta tal i en array',()=>{
+test('det störtsta tal i en array',()=>{
 	expect(storTal([1,2,3,5,7,8,9])).toBe(9);
 })

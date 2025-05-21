@@ -25,3 +25,7 @@ export function sub(x,y){
 export function div(n,m){
 	return (n/m)
 }
+
+export function storTal(array){
+	return Math.max(...array)
+}
