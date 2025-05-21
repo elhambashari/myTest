@@ -1,5 +1,5 @@
 
-import { sum, multi, login,combin ,stor} from '../exemple.js';
+import { sum, multi, login,combin ,stor, sub} from '../exemple.js';
 
 test('adds 1 + 2 to equal 3', () => {
   expect(sum(1, 2)).toBe(3);
@@ -19,4 +19,9 @@ test('combin a+b',()=>{
 
 test('sting kan be stor bokstav',()=>{
 	expect(stor('elham')).toBe('ELHAM');
+});
+
+test('skilnad mellan x och y',()=>
+{
+	expect((sub(10,6)).toBe(4));
 });
