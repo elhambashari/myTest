@@ -1,5 +1,5 @@
 
-import { sum, multi, login,combin ,stor, sub, div,storTal,sumAll,medel} from '../exemple.js';
+import { sum, multi, login,combin ,stor, sub, div,storTal,sumAll, average} from '../exemple.js';
 
 test('adds 1 + 2 to equal 3', () => {
   expect(sum(1, 2)).toBe(3);
@@ -45,5 +45,5 @@ test('summa alla tal i en array',()=>{
 
 test('medevärdi alla til i en array',()=>{
 
-	expect(medel([2,4,6,8,10])).toBe(6)
+	expect(average([2,4,6,8,10])).toBe(6)
 })
