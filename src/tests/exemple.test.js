@@ -45,5 +45,5 @@ test('summa alla tal i en array',()=>{
 
 test('medevärdi alla til i en array',()=>{
 
-	expect(medel([2,4,6,8,10])).toBe(15)
+	expect(medel([2,4,6,8,10])).toBe(6)
 })
