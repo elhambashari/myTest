@@ -1,5 +1,5 @@
 
-import { sum, multi, login,combin ,stor, sub, div,storTal,sumAll, average} from '../exemple.js';
+import { sum, multi, login,combin ,stor, sub, div,storTal,sumAll, average,isItRaining} from '../exemple.js';
 
 test('adds 1 + 2 to equal 3', () => {
   expect(sum(1, 2)).toBe(3);
@@ -46,4 +46,11 @@ test('summa alla tal i en array',()=>{
 test('medevärdi alla til i en array',()=>{
 
 	expect(average([2,4,6,8,10])).toBe(6)
+})
+
+
+
+test('om visar minst 0.8 ska bli rgn',()=>{
+
+	expect(isItRaining(0.8)).toBe(regn)
 })
