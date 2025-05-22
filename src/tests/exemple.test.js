@@ -1,5 +1,5 @@
 
-import { sum, multi, login,combin ,stor, sub, div,storTal,sumAll} from '../exemple.js';
+import { sum, multi, login,combin ,stor, sub, div,storTal,sumAll,medel} from '../exemple.js';
 
 test('adds 1 + 2 to equal 3', () => {
   expect(sum(1, 2)).toBe(3);
@@ -40,4 +40,10 @@ test('det störtsta tal i en array',()=>{
 
 test('summa alla tal i en array',()=>{
 	expect(sumAll([1,2,3,4,5,])).toBe(15)
+})
+
+
+test('medevärdi alla til i en array',()=>{
+
+	expect(medel([2,4,6,8,10])).toBe(15)
 })
