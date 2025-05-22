@@ -53,3 +53,9 @@ export function average(array) {
   const sum = array.reduce((total, num) => total + num, 0);
   return sum / array.length;
 }
+
+
+
+export function isItRaining(obj){
+	if(obj.min===0.8) return "Regn";
+}

@@ -50,7 +50,6 @@ test('medevärdi alla til i en array',()=>{
 
 
 
-test('om visar minst 0.8 ska bli rgn',()=>{
-
-	expect(isItRaining(0.8)).toBe(regn)
-})
+test('om visar minst 0.8 ska bli rgn', () => {
+  expect(isItRaining({ min: 0.8 })).toBe("Regn"); 
+});
